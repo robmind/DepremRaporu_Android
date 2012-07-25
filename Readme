@@ -1,4 +1,8 @@
 Deprem Raporu uygulaması ile Türkiye ve çevresindeki deprem bilgilerini detaylı olarak görebilirsiniz.
+
 With Deprem Raporu application, You can see details of earthquake information in and around Turkey
+
+These informations are fetched from http://www.koeri.boun.edu.tr/scripts/lst6.asp 
+(KANDILLI OBSERVATORY AND EARTHQUAKE RESEARCH INSTITUTE)
 
 https://play.google.com/store/apps/details?id=com.hilgar.depremraporu
