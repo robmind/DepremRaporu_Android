@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="fvc_textbutton_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="fvc_textbutton_textstyle_italic" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="tabbar_button_hl_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#162f54</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="tabbar_button_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#eaeaea</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="settings_button_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#eaeaea</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="portfolio_list_item_symbol_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#194171</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="portfolio_list_item_price_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#545454</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="portfolio_list_item_difference_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#545454</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="portfolio_list_item_difference_up_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#75a200</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="portfolio_list_item_difference_down_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#9d1c01</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="mypage_news_list_item_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="mypage_news_list_item_time_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#7ba7d9</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="research_news_list_item_time_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffc58c</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="mypage_suggestions_symbol_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="mypage_suggestions_state_green_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#b3de48</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="mypage_suggestions_state_red_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#f1473b</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="mypage_suggestions_state_orange_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#dcbe17</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="mypage_suggestions_date_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="research_suggestions_date_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="markets_list_item_symbol_small_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#194171</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="markets_list_item_symbol_medium_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#194171</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="markets_list_item_symbol_large_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#194171</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="imkb_details_value_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#8ebdfa</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="imkb_details_session_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="imkb_details_session_red_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#9d1c01</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="imkb_details_session_green_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#6fd149</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="imkb_details_news_list_title_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="imkb_details_news_list_detail_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="imkb_details_depth_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="imkb_details_depth_red_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="imkb_details_depth_green_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="expandable_menu_button_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="expandable_submenu_button_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#a9bcd7</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="expandable_submenu_button_selected_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="popover_title_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#162f54</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="dialog_title_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="login_dialog_field_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="login_dialog_edit_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="xmessage_text_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="xmessage_checkbox_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="int_demo_selection_alert_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="int_demo_selection_moreinfo_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="int_demo_register_info_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="int_demo_register_form_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="int_demo_register_form_titles_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="stock_order_cancel_titles_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#b3c1db</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="stock_order_cancel_values_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="stock_order_cancel_list_header_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#7894c3</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="fund_order_values14_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#7d94bc</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="fund_order_titles13_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="fund_order_values13_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#7d94bc</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="portfolio_list_row_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="xmenugroup_title_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="xmenugroup_desc_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#7d94bc</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="imkb_list_header_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#7894c3</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="imkb_symbol_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="imkb_symbol_desc_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#88b2e9</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="imkb_pricelabel_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#061634</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="imkb_difference_green_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#6fd149</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="imkb_difference_red_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#c11a1a</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="imkb_difference_white_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="imkb_session_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#061634</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="symbol_detail_graph_title_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#fa8100</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="symbol_detail_subgraph_title_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#fa8100</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="symbol_detail_buttons_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#0f2638</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="symbol_detail_reminder_texts_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="symbol_detail_reminder_checkbox_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">8sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="symbol_detail_reminder_edit_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="vob_list_header_textstyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#7894c3</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

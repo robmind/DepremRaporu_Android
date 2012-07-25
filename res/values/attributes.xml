@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="XFramedView">
+        <attr name="XFrameInnerLayoutId" format="integer" />
+        <attr name="XFrameTitle" format="string" />
+    </declare-styleable>
+    <declare-styleable name="XFramedViewWithBg">
+        <attr name="XFrameWithBgInnerLayoutId" format="integer" />
+        <attr name="XFrameWithBgTitle" format="string" />
+    </declare-styleable>
+    <declare-styleable name="XMenuButton">
+        <attr name="XMenuButtonText" format="string" />
+    </declare-styleable>
+    <declare-styleable name="XSubMenuButton">
+        <attr name="XSubMenuButtonText" format="string" />
+    </declare-styleable>
+    <declare-styleable name="XExpandableMenuButton">
+        <attr name="XExpandableMenuButtonText" format="string" />
+    </declare-styleable>
+    <declare-styleable name="XMenuGroup">
+        <attr name="XMenuGroupTitle" format="string" />
+    </declare-styleable>
+    <declare-styleable name="XSubMenuItem">
+        <attr name="XSubMenuItemTitle" format="string" />
+        <attr name="XSubMenuItemHasAddButton" format="boolean" />
+        <attr name="XSubMenuItemHasDeleteButton" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="XToggleButton">
+        <attr name="XToggleButtonTitle" format="string" />
+    </declare-styleable>
+
+</resources>
